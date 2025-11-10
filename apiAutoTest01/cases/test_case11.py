@@ -13,6 +13,7 @@ def writeToYml(filename,data):
         # 如果这里的 mode 为 w ，表示写，但是之前文件中已经存在的内容就消失了
     with open(filename,mode="a+",encoding="utf-8") as f:
             # 注意这里往 yml 文件中写入数据时，使用的方法是 safe_dump
+        f.write("---\n")
         yaml.safe_dump(data,stream=f)
 
     # 从 yml 中读取文件数据
@@ -35,3 +36,6 @@ def test_write():
 
 def test_read():
     print(readFromYml("test.yml"))
+
+def test_clear():
+    clearYml("test.yml")
