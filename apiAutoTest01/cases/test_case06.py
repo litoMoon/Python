@@ -1,7 +1,7 @@
 #测试 fixture----可以将函数名作为参数进⾏调⽤
 import pytest
 
-class TestFixture:
+class testFixture:
     # @pytest.fixture
     # def case1(self):
     #     return [1,2,3,4,5]
@@ -66,6 +66,7 @@ class TestFixture:
 
     # 这两者是不同的句柄 beforeOperator2，beforeOperator1
     def testCase6(self,beforeOperator2,beforeOperator1):
+        # 写时是先写入缓冲区内的，若未达到要求需要手动刷新缓冲区
         beforeOperator2.write("一定要相信自己")
         beforeOperator2.flush()
         print("正在执行读取文件操作，读取到的数据为: ", end="")
