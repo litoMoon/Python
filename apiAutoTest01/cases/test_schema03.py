@@ -34,7 +34,7 @@ def json_Factory():
       }
     }
 
-    #(exclusiveMinimum,exclusiveMaximum)
+    #(exclusiveMinimum,exclusiveMaximum)--前缀有exclusive的不包含这两个边界值
     json3_schema={
       "type": "object",
       "required": [],
@@ -52,5 +52,5 @@ def json_Factory():
 
     validate(instance=json1,schema=json3_schema)
 
-def test_data_json():
+def est_data_json():
     json_Factory()
