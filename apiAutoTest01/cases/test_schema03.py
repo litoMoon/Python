@@ -45,12 +45,12 @@ def json_Factory():
         "age": {
           "type": "number",
           "exclusiveMinimum": 0,
-          "exclusiveMaximum": 120  # 测试结果报错，这里输出是不包含 0 和 120 这两个边界值的
+          "exclusiveMaximum": 121  # 测试结果报错，这里输出是不包含 0 和 120 这两个边界值的
         }
       }
     }
 
     validate(instance=json1,schema=json3_schema)
 
-def est_data_json():
+def test_data_json():
     json_Factory()

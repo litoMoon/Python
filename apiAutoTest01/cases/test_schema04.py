@@ -14,7 +14,7 @@ def json_Factory():
       "properties": {
         "str1": {
           "type": "string",
-          "pattern":"\S+"
+          "pattern":r"\S+"
         },
         "str2": {
           "type": "string"

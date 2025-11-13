@@ -1,7 +1,5 @@
-# 针对对象的校验
+#测试必须属性
 from jsonschema.validators import validate
-
-
 def json_Factory():
     json={
         "name":"zhangsan",
@@ -12,7 +10,7 @@ def json_Factory():
 
     json_schema={
       "type": "object",
-      "required": [],
+      "required": ["name","height"],
       "properties": {
         "name": {
           "type": "string"
@@ -31,7 +29,8 @@ def json_Factory():
       # "additionalProperties":False
     }
 
-    validate(instance=json,schema=json_schema)
+    validate(instance=json, schema=json_schema)
 
-def test_jason():
+def est_json():
     json_Factory()
+

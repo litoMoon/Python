@@ -1,0 +1,20 @@
+this is debug logging
+this is info logging
+this is warning logging
+this is error logging
+this is critical logging
+this is debug logging
+this is info logging
+this is warning logging
+this is error logging
+this is critical logging
+2025-11-13 21:26:38,520 DEBUG [my_logger] [my_logging.py (<module>:30)] - this is debug logging
+2025-11-13 21:26:38,520 INFO [my_logger] [my_logging.py (<module>:31)] - this is info logging
+2025-11-13 21:26:38,520 WARNING [my_logger] [my_logging.py (<module>:32)] - this is warning logging
+2025-11-13 21:26:38,520 ERROR [my_logger] [my_logging.py (<module>:33)] - this is error logging
+2025-11-13 21:26:38,520 CRITICAL [my_logger] [my_logging.py (<module>:34)] - this is critical logging
+2025-11-13 21:26:41,173 DEBUG [my_logger] [my_logging.py (<module>:30)] - this is debug logging
+2025-11-13 21:26:41,173 INFO [my_logger] [my_logging.py (<module>:31)] - this is info logging
+2025-11-13 21:26:41,173 WARNING [my_logger] [my_logging.py (<module>:32)] - this is warning logging
+2025-11-13 21:26:41,173 ERROR [my_logger] [my_logging.py (<module>:33)] - this is error logging
+2025-11-13 21:26:41,173 CRITICAL [my_logger] [my_logging.py (<module>:34)] - this is critical logging
