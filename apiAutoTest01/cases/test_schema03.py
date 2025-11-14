@@ -1,5 +1,6 @@
 # 自己构造 json 对象和 json_schema 来对数据进行校验操作
 # 操作数值
+import logging
 from jsonschema.validators import validate
 def json_Factory():
     json1 = {
@@ -45,12 +46,14 @@ def json_Factory():
         "age": {
           "type": "number",
           "exclusiveMinimum": 0,
-          "exclusiveMaximum": 121  # 测试结果报错，这里输出是不包含 0 和 120 这两个边界值的
+          "exclusiveMaximum": 120  # 测试结果报错，这里输出是不包含 0 和 120 这两个边界值的
         }
       }
     }
 
     validate(instance=json1,schema=json3_schema)
+    logging.basicConfig(level=logging.INFO)
+    logging.info("this is a info message")
 
 def test_data_json():
     json_Factory()

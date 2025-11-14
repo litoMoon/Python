@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1","test_json","cases","Thu Nov 13 22:45:44 CST 2025","passed","Thu Nov 13 22:45:44 CST 2025","","test_schema04","",""
-"","1","test_jason","cases","Thu Nov 13 22:45:44 CST 2025","passed","Thu Nov 13 22:45:44 CST 2025","","test_schema05","",""
-"","1","test_data_json","cases","Thu Nov 13 22:45:44 CST 2025","passed","Thu Nov 13 22:45:44 CST 2025","","test_schema03","",""
+"","1","test_data_json","cases","Fri Nov 14 08:15:58 CST 2025","passed","Fri Nov 14 08:15:58 CST 2025","","test_schema03","",""
+"","1","test_json","cases","Fri Nov 14 08:15:58 CST 2025","passed","Fri Nov 14 08:15:58 CST 2025","","test_schema04","",""
+"","2","test_jason","cases","Fri Nov 14 08:15:58 CST 2025","passed","Fri Nov 14 08:15:58 CST 2025","","test_schema05","",""
