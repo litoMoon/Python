@@ -61,19 +61,23 @@ class Testlogin:
         {
         #情况一：账号密码均为空
         "loginName":"",
-        "password":""
+        "password":"",
+        "errMsg": "系统异常"
     },{
         #情况二：账号为空，密码不为空
         "loginName":"",
-        "password":"555441"
+        "password":"555441",
+        "errMsg":"系统异常"
         },{
         #情况三：账号不为空，密码为空---前三个返回的 msg：系统异常
         "loginName":"18111111111",
-        "password":""
+        "password":"",
+        "errMsg":"系统异常"
         },{
         # 情况四：账号不存在---应该返回的 msg：用户信息不存在
         "loginName": "13473728920",
-        "password":"555555"
+        "password":"555555",
+        "errMsg":"用户信息为空"
     }])
     def test_login_fail(self,loginParams):
         url=self.comdata+"password/login"
@@ -101,4 +105,5 @@ class Testlogin:
         }
         validate(instance=result.json(),schema=login_schema)
         assert result.json()["code"]==500
+        assert result.json()["msg"]==loginParams["errMsg"]
 

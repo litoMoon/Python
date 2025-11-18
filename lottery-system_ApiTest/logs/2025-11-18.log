@@ -1,0 +1,170 @@
+2025-11-18 19:55:48,622 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 19:55:48,660 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NjY5NDgsImV4cCI6MTc2MzQ3MDU0OH0.JDCbBhoQ_ZoNsr9marPmFldZaHekWmTxoRKsoDgqLHI'}}
+2025-11-18 19:55:48,663 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 19:55:48,697 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NjY5NDgsImV4cCI6MTc2MzQ3MDU0OH0.mBT-h1wheWlr7Uv1LrizTh-AprfusvhXWVeMangTC2Y'}}
+2025-11-18 19:55:48,703 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 19:55:48,740 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:55:48,789 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 19:55:48,821 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:55:48,833 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 19:55:48,873 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:55:48,880 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 19:55:48,917 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 19:57:22,165 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 19:57:22,199 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NjcwNDIsImV4cCI6MTc2MzQ3MDY0Mn0.8nQTvIXQ60n5Rea28jqPsF_C2g0O2554cK6v0MpmLao'}}
+2025-11-18 19:57:22,204 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 19:57:22,254 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NjcwNDIsImV4cCI6MTc2MzQ3MDY0Mn0.R1sU2W0mCrjOvUFFkFjGVayFmfltPkmrR_pO6fVdUKY'}}
+2025-11-18 19:57:22,263 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 19:57:22,297 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:22,306 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 19:57:22,357 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:22,362 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 19:57:22,398 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:22,406 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 19:57:22,446 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 19:57:39,278 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 19:57:39,314 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NjcwNTksImV4cCI6MTc2MzQ3MDY1OX0.uoxPR6-3PRbW3YwpFW9ysSZcwZGj_Y9iEDUgYg_HMKk'}}
+2025-11-18 19:57:39,321 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 19:57:39,364 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NjcwNTksImV4cCI6MTc2MzQ3MDY1OX0.V7nooaReiK3Vv9dHeLeQZR5hJ6t9DU2s0g1OYxVBXqo'}}
+2025-11-18 19:57:39,377 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 19:57:39,426 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:39,437 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 19:57:39,469 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:39,478 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 19:57:39,516 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 19:57:39,523 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 19:57:39,560 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:12:16,669 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:12:16,669 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:12:16,717 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzUxMzYsImV4cCI6MTc2MzQ3ODczNn0.ySQVHDMIyM5e3i6bYwN9275xy_MZhQBfeGdbIjO21Ro'}}
+2025-11-18 22:12:16,717 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzUxMzYsImV4cCI6MTc2MzQ3ODczNn0.ySQVHDMIyM5e3i6bYwN9275xy_MZhQBfeGdbIjO21Ro'}}
+2025-11-18 22:12:16,720 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:12:16,720 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:12:16,754 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzUxMzYsImV4cCI6MTc2MzQ3ODczNn0.vIF-UQx89R1pSHkmlGte9aaNopcpfsI6U36SYGKsYJ4'}}
+2025-11-18 22:12:16,754 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzUxMzYsImV4cCI6MTc2MzQ3ODczNn0.vIF-UQx89R1pSHkmlGte9aaNopcpfsI6U36SYGKsYJ4'}}
+2025-11-18 22:12:16,763 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:12:16,763 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:12:16,797 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,797 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,800 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:12:16,800 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:12:16,868 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,868 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,872 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:12:16,872 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:12:16,908 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,908 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:12:16,912 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:12:16,912 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:12:16,949 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:12:16,949 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:12:16,958 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:12:16,958 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:16:16,025 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:16:16,025 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:16:16,078 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzUzNzUsImV4cCI6MTc2MzQ3ODk3NX0.fjtH97KTUUWq9wluxgldsvlkvYjOOoRPYZWgOs7c54s'}}
+2025-11-18 22:16:16,078 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzUzNzUsImV4cCI6MTc2MzQ3ODk3NX0.fjtH97KTUUWq9wluxgldsvlkvYjOOoRPYZWgOs7c54s'}}
+2025-11-18 22:16:16,082 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:16:16,082 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:16:16,125 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzUzNzUsImV4cCI6MTc2MzQ3ODk3NX0.41V5iSyRSbZW0xmoRy5tVS2C-kdOM1AfiwpTLUwJauk'}}
+2025-11-18 22:16:16,125 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzUzNzUsImV4cCI6MTc2MzQ3ODk3NX0.41V5iSyRSbZW0xmoRy5tVS2C-kdOM1AfiwpTLUwJauk'}}
+2025-11-18 22:16:16,134 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:16:16,134 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:16:16,193 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,193 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,201 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:16:16,201 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:16:16,269 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,269 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,274 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:16:16,274 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:16:16,323 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,323 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:16:16,330 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:16:16,330 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:16:16,416 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:16:16,416 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:16:16,420 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:16:16,420 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:17:43,377 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:17:43,377 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:17:43,495 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU0NjMsImV4cCI6MTc2MzQ3OTA2M30.h0p3NWW6ij437A53D2Decy31PgOcFlcOodshBP9_Hbg'}}
+2025-11-18 22:17:43,495 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU0NjMsImV4cCI6MTc2MzQ3OTA2M30.h0p3NWW6ij437A53D2Decy31PgOcFlcOodshBP9_Hbg'}}
+2025-11-18 22:17:43,503 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:17:43,503 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:17:43,683 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU0NjMsImV4cCI6MTc2MzQ3OTA2M30.9uxsDjXQnztDpN_WzmcOfP6ouOTTi666amFA_Ts0904'}}
+2025-11-18 22:17:43,683 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU0NjMsImV4cCI6MTc2MzQ3OTA2M30.9uxsDjXQnztDpN_WzmcOfP6ouOTTi666amFA_Ts0904'}}
+2025-11-18 22:17:43,694 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:17:43,694 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:17:43,784 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,784 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,791 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:17:43,791 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:17:43,930 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,930 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,933 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:17:43,933 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:17:43,977 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,977 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:17:43,984 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:17:43,984 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:17:44,028 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:17:44,028 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:17:44,033 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-18 22:17:44,033 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-18 22:17:44,197 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:17:44,197 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:18:34,917 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:18:34,917 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:18:34,968 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU1MTQsImV4cCI6MTc2MzQ3OTExNH0.SLFFwsbjpzB3-aoz8c6zKVNOZ_JNCJrYGwWO2GevO5k'}}
+2025-11-18 22:18:34,968 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU1MTQsImV4cCI6MTc2MzQ3OTExNH0.SLFFwsbjpzB3-aoz8c6zKVNOZ_JNCJrYGwWO2GevO5k'}}
+2025-11-18 22:18:34,979 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:18:34,979 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:18:35,025 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU1MTQsImV4cCI6MTc2MzQ3OTExNH0._pWNwpsULlD2HYAtCPo5rfbCqnNppU3lIz16I2rnNos'}}
+2025-11-18 22:18:35,025 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU1MTQsImV4cCI6MTc2MzQ3OTExNH0._pWNwpsULlD2HYAtCPo5rfbCqnNppU3lIz16I2rnNos'}}
+2025-11-18 22:18:35,032 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:18:35,032 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:18:35,212 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,212 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,216 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:18:35,216 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:18:35,278 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,278 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,288 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:18:35,288 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:18:35,352 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,352 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:18:35,360 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:18:35,360 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:18:35,640 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:18:35,640 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:18:35,648 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:18:35,648 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.TextIOWrapper name='C:\\PIC\\param.json' mode='r' encoding='cp936'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.TextIOWrapper name='C:\\PIC\\水杯.jpg' mode='r' encoding='cp936'>, 'image/jpeg'))]}
+2025-11-18 22:20:41,206 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:20:41,206 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-18 22:20:41,290 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU2NDEsImV4cCI6MTc2MzQ3OTI0MX0.ifBdAi_tLLTJm4UjV8uuWE9FlkAvlWwFGHkbXlq9mfA'}}
+2025-11-18 22:20:41,290 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0NzU2NDEsImV4cCI6MTc2MzQ3OTI0MX0.ifBdAi_tLLTJm4UjV8uuWE9FlkAvlWwFGHkbXlq9mfA'}}
+2025-11-18 22:20:41,300 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:20:41,300 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-18 22:20:41,385 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU2NDEsImV4cCI6MTc2MzQ3OTI0MX0.QeHxt6uppCb10OZsS8zus7HqVqS_DT5kLLSXRQBxUCU'}}
+2025-11-18 22:20:41,385 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM0NzU2NDEsImV4cCI6MTc2MzQ3OTI0MX0.QeHxt6uppCb10OZsS8zus7HqVqS_DT5kLLSXRQBxUCU'}}
+2025-11-18 22:20:41,395 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:20:41,395 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-18 22:20:41,497 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,497 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,502 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:20:41,502 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-18 22:20:41,600 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,600 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,612 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:20:41,612 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-18 22:20:41,852 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,852 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-18 22:20:41,859 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:20:41,859 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-18 22:20:42,002 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:20:42,002 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:20:42,011 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-18 22:20:42,011 INFO [utils.log] [Requests.py (post:17)] - 正在发起 post 请求，请求信息有{'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM0Njk3MzMsImV4cCI6MTc2MzQ3MzMzM30.KZKxZDd9hRWeBUZkQiidfMShplg3la9M91GLGNiNgNI'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-18 22:20:42,212 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-18 22:20:42,212 INFO [utils.log] [Requests.py (post:19)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
