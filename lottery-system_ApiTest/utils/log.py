@@ -1,7 +1,10 @@
 # 操作日志所需的操作
 import logging
 import os.path
+import sys
 import time
+from idlelib.iomenu import encoding
+
 
 class info_Filter(logging.Filter):
     def filter(self, record):
@@ -31,6 +34,7 @@ class Log:
         all=logging.FileHandler(All_log,encoding="utf-8")
         info=logging.FileHandler(Info_log,encoding="utf-8")
         err=logging.FileHandler(Err_log,encoding="utf-8")
+        ter=logging.StreamHandler(sys.stdout)
 
         # 设置输出格式
         # 创建⼀个⽇志格式器对象
@@ -40,6 +44,7 @@ class Log:
         all.setFormatter(formatter)
         info.setFormatter(formatter)
         err.setFormatter(formatter)
+        ter.setFormatter(formatter)
 
         # 添加过滤器--传入的参数为过滤的类对象
         info.addFilter(info_Filter())
@@ -49,5 +54,6 @@ class Log:
         cls.logger.addHandler(all)
         cls.logger.addHandler(info)
         cls.logger.addHandler(err)
+        cls.logger.addHandler(ter)
 
         return cls.logger

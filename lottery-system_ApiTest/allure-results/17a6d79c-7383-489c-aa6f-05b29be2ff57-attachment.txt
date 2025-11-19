@@ -1,0 +1,2 @@
+[32mINFO    [0m utils.log:Requests.py:18 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '喜喜', 'password': '', 'phoneNumber': '15556984232'}}
+[32mINFO    [0m utils.log:Requests.py:20 post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
