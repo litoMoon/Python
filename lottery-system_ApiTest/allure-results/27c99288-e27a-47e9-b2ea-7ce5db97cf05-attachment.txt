@@ -1,0 +1,3 @@
+[32mINFO    [0m utils.log:Requests.py:10 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+[32mINFO    [0m utils.log:Requests.py:11 正在发起get请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+[32mINFO    [0m utils.log:Requests.py:13 get请求完成，响应的数据信息为：{}

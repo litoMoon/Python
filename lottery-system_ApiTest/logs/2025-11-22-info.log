@@ -1,0 +1,194 @@
+2025-11-22 21:51:35,367 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'activityName': '接口测试3', 'description': '接口测试3的描述', 'prizeList': [{'prizeId': 39, 'prizeAmount': 1, 'prizeTiers': 'FIRST_PRIZE'}], 'userList': [{'userId': 79, 'userName': '喜喜'}, {'userId': 78, 'userName': '蹦子'}]}, 'headers': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM1NjEzNDIsImV4cCI6MTc2MzU2NDk0Mn0.wHjnn9vQcthJP9WV0Gedlu3vtCDpd2hPEvx6z1_ALRk'}
+2025-11-22 21:51:35,367 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'activityName': '接口测试3', 'description': '接口测试3的描述', 'prizeList': [{'prizeId': 39, 'prizeAmount': 1, 'prizeTiers': 'FIRST_PRIZE'}], 'userList': [{'userId': 79, 'userName': '喜喜'}, {'userId': 78, 'userName': '蹦子'}]}, 'headers': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM1NjEzNDIsImV4cCI6MTc2MzU2NDk0Mn0.wHjnn9vQcthJP9WV0Gedlu3vtCDpd2hPEvx6z1_ALRk'}
+2025-11-22 21:51:35,570 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:51:35,570 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:51:35,571 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM1NjEzNDIsImV4cCI6MTc2MzU2NDk0Mn0.wHjnn9vQcthJP9WV0Gedlu3vtCDpd2hPEvx6z1_ALRk'}}
+2025-11-22 21:51:35,571 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM1NjEzNDIsImV4cCI6MTc2MzU2NDk0Mn0.wHjnn9vQcthJP9WV0Gedlu3vtCDpd2hPEvx6z1_ALRk'}}
+2025-11-22 21:51:35,651 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:35,651 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:35,693 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:51:35,693 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:51:35,693 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:51:35,693 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:51:36,021 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:36,021 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:36,026 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-22 21:51:36,026 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-22 21:51:36,503 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:36,503 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:36,512 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-22 21:51:36,512 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-22 21:51:36,992 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:36,992 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:36,999 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-22 21:51:36,999 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-22 21:51:37,455 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:37,455 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:37,473 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-22 21:51:37,473 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-22 21:51:37,945 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-22 21:51:37,945 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-22 21:51:37,959 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-22 21:51:37,959 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-22 21:51:38,448 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.74RJccdF6wiTyrYDQqmz0yej_eimq2FMO5wPcXFlGzM'}}
+2025-11-22 21:51:38,448 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.74RJccdF6wiTyrYDQqmz0yej_eimq2FMO5wPcXFlGzM'}}
+2025-11-22 21:51:38,464 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-22 21:51:38,464 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-22 21:51:39,047 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:39,047 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:39,096 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-22 21:51:39,096 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-22 21:51:39,807 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:39,807 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:51:39,812 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:39,812 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:39,812 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:51:39,812 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:51:40,254 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:40,254 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:40,281 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:40,281 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:40,282 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 2}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:40,282 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 2}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:40,825 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:40,825 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:40,854 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:40,854 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:51:40,855 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:40,855 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:41,418 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:41,418 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:41,457 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '喜喜', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:51:41,457 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '喜喜', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:51:42,010 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:51:42,010 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:51:42,048 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984231'}}
+2025-11-22 21:51:42,048 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984231'}}
+2025-11-22 21:51:42,349 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:51:42,349 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:51:42,359 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22221123@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:51:42,359 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22221123@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:51:42,873 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '电话信息不唯一', 'data': None}
+2025-11-22 21:51:42,873 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '电话信息不唯一', 'data': None}
+2025-11-22 21:51:42,882 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:42,882 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:42,883 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{}
+2025-11-22 21:51:42,883 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{}
+2025-11-22 21:51:43,435 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:43,435 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:43,445 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:43,445 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:43,445 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:43,445 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:43,908 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:43,908 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:43,933 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:43,933 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:43,933 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'ADMIN'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:43,933 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'ADMIN'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:44,474 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:44,474 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:44,486 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:44,486 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:51:44,489 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'NORMAL'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:44,489 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'NORMAL'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:51:44,993 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:51:44,993 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:09,763 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'activityName': '接口测试3', 'description': '接口测试3的描述', 'prizeList': [{'prizeId': 39, 'prizeAmount': 1, 'prizeTiers': 'FIRST_PRIZE'}], 'userList': [{'userId': 79, 'userName': '喜喜'}, {'userId': 78, 'userName': '蹦子'}]}, 'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:57:09,763 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'activityName': '接口测试3', 'description': '接口测试3的描述', 'prizeList': [{'prizeId': 39, 'prizeAmount': 1, 'prizeTiers': 'FIRST_PRIZE'}], 'userList': [{'userId': 79, 'userName': '喜喜'}, {'userId': 78, 'userName': '蹦子'}]}, 'headers': {'User_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:57:09,872 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'activityId': 110}}
+2025-11-22 21:57:09,872 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'activityId': 110}}
+2025-11-22 21:57:09,898 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:57:09,898 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:57:09,898 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:57:09,898 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk0OTgsImV4cCI6MTc2MzgyMzA5OH0.9BO5tQquNgvu4O0twOyVsW8SILS6uvML5kOFAN2rcas'}}
+2025-11-22 21:57:10,425 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:10,425 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:10,441 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:57:10,441 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+2025-11-22 21:57:10,446 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:57:10,446 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:57:10,921 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:10,921 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:10,928 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-22 21:57:10,928 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': ''}}
+2025-11-22 21:57:11,466 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:11,466 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:11,471 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-22 21:57:11,471 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '', 'password': '555441'}}
+2025-11-22 21:57:11,978 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:11,978 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:11,989 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-22 21:57:11,989 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': ''}}
+2025-11-22 21:57:12,483 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:12,483 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:12,506 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-22 21:57:12,506 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '13473728920', 'password': '555555'}}
+2025-11-22 21:57:12,977 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-22 21:57:12,977 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '用户信息为空', 'data': None}
+2025-11-22 21:57:12,997 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-22 21:57:12,997 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
+2025-11-22 21:57:13,499 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.tuM0AwLIz8JfKpm-pk1KYSI9yibZzht7vFGBwq0j5jE'}}
+2025-11-22 21:57:13,499 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.tuM0AwLIz8JfKpm-pk1KYSI9yibZzht7vFGBwq0j5jE'}}
+2025-11-22 21:57:13,515 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-22 21:57:13,515 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'loginName': '18723555441', 'password': '555441'}}
+2025-11-22 21:57:14,088 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:14,088 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:14,124 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-22 21:57:14,124 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}, 'files': [('param', ('param.json', <_io.BufferedReader name='C:\\PIC\\param.json'>, 'application/json')), ('prizePic', ('水杯.jpg', <_io.BufferedReader name='C:\\PIC\\水杯.jpg'>, 'image/jpeg'))]}
+2025-11-22 21:57:14,749 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:14,749 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '系统异常', 'data': None}
+2025-11-22 21:57:14,756 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:14,756 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:14,756 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:57:14,756 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}}
+2025-11-22 21:57:15,156 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:15,156 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:15,175 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:15,175 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:15,175 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 2}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:15,175 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 2}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:15,654 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:15,654 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:15,680 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:15,680 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/prize/find-list
+2025-11-22 21:57:15,686 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:15,686 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:16,227 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:16,227 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:16,235 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '喜喜', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:57:16,235 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '喜喜', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:57:16,740 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:57:16,740 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:57:16,824 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984231'}}
+2025-11-22 21:57:16,824 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22112222@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984231'}}
+2025-11-22 21:57:17,100 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:57:17,100 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '邮箱信息不唯一', 'data': None}
+2025-11-22 21:57:17,113 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22221123@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:57:17,113 INFO [utils.log] [Requests.py (post:18)] - 正在发起 post 请求，请求信息有{'json': {'email': '22221123@qq.com', 'identity': 'NORMAL', 'name': '美美', 'password': '', 'phoneNumber': '15556984232'}}
+2025-11-22 21:57:17,595 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '电话信息不唯一', 'data': None}
+2025-11-22 21:57:17,595 INFO [utils.log] [Requests.py (post:20)] - post请求完成，响应的数据信息为：{'code': 500, 'msg': '电话信息不唯一', 'data': None}
+2025-11-22 21:57:17,611 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:17,611 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:17,611 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{}
+2025-11-22 21:57:17,611 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{}
+2025-11-22 21:57:18,114 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,114 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,135 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,135 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,135 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:18,135 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:18,414 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,414 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,434 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,434 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,434 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'ADMIN'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:18,434 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'ADMIN'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:18,830 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,830 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:18,861 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,861 INFO [utils.log] [Requests.py (get:10)] - 正在发起get请求，请求url为：http://8.147.235.67:8080/base-user/find-list
+2025-11-22 21:57:18,861 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'NORMAL'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:18,861 INFO [utils.log] [Requests.py (get:11)] - 正在发起get请求，请求信息有{'params': {'identity': 'NORMAL'}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM4MTk4MzMsImV4cCI6MTc2MzgyMzQzM30.zrNWhwVMeqxNBhFxjwsDQ3ohm-T66siuIQUMnaTqgkc'}}
+2025-11-22 21:57:19,412 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
+2025-11-22 21:57:19,412 INFO [utils.log] [Requests.py (get:13)] - get请求完成，响应的数据信息为：{}
