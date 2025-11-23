@@ -34,6 +34,8 @@ class TestActivityCreate:
         }
       }
     }
+
+    # 有登录凭证
     def test_activity_create_success(self):
         # 获取token信息
         token=read_yml(os.getcwd()+"/data/data.yml","token")
@@ -62,4 +64,31 @@ class TestActivityCreate:
         r = Request().post(url=self.url,json=param,headers=header)
         validate(instance=r.json(),schema=self.schema)
         assert r.status_code==200
+
+    #没有登录凭证
+    def test_activity_create_Nologin(self):
+        # 获取token信息
+        #请求参数信息
+        param={
+            "activityName":"接口测试3",
+            "description":"接口测试3的描述",
+            "prizeList":[{
+                "prizeId":39,
+                "prizeAmount":1,
+                "prizeTiers":"FIRST_PRIZE"
+            }],
+            "userList":[
+                {
+                 "userId":79,
+                 "userName":"喜喜"
+                },{
+                    "userId":78,
+                    "userName":"蹦子"
+                }
+            ]
+        }
+        r = Request().post(url=self.url,json=param)
+        assert r.status_code==200
+        assert r.json()["code"]==500
+
 

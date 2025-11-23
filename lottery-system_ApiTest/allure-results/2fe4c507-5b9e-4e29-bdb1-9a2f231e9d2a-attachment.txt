@@ -1,0 +1,3 @@
+[32mINFO    [0m utils.log:Requests.py:10 正在发起get请求，请求url为：http://8.147.235.67:8080/activity/find-list
+[32mINFO    [0m utils.log:Requests.py:11 正在发起get请求，请求信息有{'params': {'currentPage': 1, 'pageSize': 3}, 'headers': {'user_token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjczLCJpYXQiOjE3NjM5MDQ4NTMsImV4cCI6MTc2MzkwODQ1M30.54lPuWficrXLCHBVbJ8Ep3_2Abq-DxOpCiJTXgZTom4'}}
+[32mINFO    [0m utils.log:Requests.py:13 get请求完成，响应的数据信息为：{}
