@@ -1,6 +1,8 @@
 # 活动列表展示页测试
 import os
 
+import pytest
+
 from utils.IOData import read_yml
 from utils.Requests import Request
 from jsonschema.validators import validate
@@ -51,10 +53,11 @@ class TestList:
         }
     }
 
-    def test_list_login(self):
+    @pytest.mark.parametrize("param1,param2",[(1,3),(1,4)])
+    def test_list_login(self,param1,param2):
         param = {
-            "currentPage": 1,
-            "pageSize": 3
+            "currentPage": param1,
+            "pageSize": param2
         }
 
         # 读取yml中的登陆凭证
@@ -67,7 +70,7 @@ class TestList:
         validate(instance=r.json(), schema=self.schema)
 
     # 没有登录凭证
-    def test_list_notlogin(self):
+    def test_list_notLogin(self):
         param = {
             "currentPage" : 1,
             "pageSize" : 3

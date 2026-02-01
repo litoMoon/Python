@@ -58,7 +58,6 @@ class TestRegisterAdmin:
             "msg" :"电话信息不唯一"
         }])
         def test_registerAdmin_fail(self,param):
-
             params = {
                 "email": param["email"],
                 "identity": param["identity"],

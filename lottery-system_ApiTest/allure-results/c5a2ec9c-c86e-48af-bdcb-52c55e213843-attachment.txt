@@ -1,2 +1,0 @@
-[32mINFO    [0m utils.log:Requests.py:18 正在发起 post 请求，请求信息有{'json': {'loginName': '18111111111', 'password': '888888'}}
-[32mINFO    [0m utils.log:Requests.py:20 post请求完成，响应的数据信息为：{'code': 200, 'msg': '', 'data': {'identity': 'ADMIN', 'token': 'eyJhbGciOiJIUzI1NiJ9.eyJpZGVudGl0eSI6IkFETUlOIiwiaWQiOjY0LCJpYXQiOjE3NjM5MDQ5NzksImV4cCI6MTc2MzkwODU3OX0.Ij9epe0yAbKjAHHtYR2RdKvqFblAPzCW_aqdRarDwwM'}}
